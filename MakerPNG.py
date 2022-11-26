@@ -34,7 +34,7 @@ def MakePNG(name, cols, lines):
     configuration.close()
 
     # writing a frame in the form of characters in a text document
-    f = open("test.txt", "w")
+    f = open("text.txt", "w")
     for number_frame in range(0, count_frame):
         ret, frame = video_capture.read()
         load(number_frame, 3, count_frame)

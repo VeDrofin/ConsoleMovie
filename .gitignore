@@ -1,0 +1,7 @@
+.git/
+__pycache__/
+.idea/
+configuration.txt
+pic.png
+test.txt
+text.txt
